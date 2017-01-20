@@ -2,9 +2,9 @@
 
 Yleisiä linkkejä:
 
-* [Linkki sovellukseeni](https://www.cs.helsinki.fi)
-* [Linkki dokumentaatiooni](https://www.github.com)
+http://salailja.users.cs.helsinki.fi/tsoha/
+https://github.com/Albiinok/Tsoha-Bootstrap/blob/master/doc/dokumentti.pdf
 
 ## Työn aihe
 
-Laita tähän aihekuvaus tai [linkki valmiiseen aiheeseen](http://advancedkittenry.github.io/suunnittelu_ja_tyoymparisto/aiheet/Pokemon-kanta.html) 
+Sovellus auttaa bändejä hallinnoimaan ja pitämään soitetut keikkansa ja löytämään muita bändejä tai keikkapaikkoja. Sovellukseen voi lisätä bändin, genren, tapahtuman tai keikkapaikan. Sovellukseen kirjaudutaan bändinä, jonka jälkeen voi hallinnoida tietojaan tai lisätä itselleen uuden genren, keikkapaikan tai tapahtuman. Kirjautumisen jälkeen etusivulla bändi näkee omat tietonsa.
