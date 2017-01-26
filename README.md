@@ -3,7 +3,15 @@
 Yleisiä linkkejä:
 
 http://salailja.users.cs.helsinki.fi/tsoha/
+http://salailja.users.cs.helsinki.fi/tsoha/etusivu
+http://salailja.users.cs.helsinki.fi/tsoha/lisaakeikka
+http://salailja.users.cs.helsinki.fi/tsoha/keikat
+http://salailja.users.cs.helsinki.fi/tsoha/keikkapaikat
+http://salailja.users.cs.helsinki.fi/tsoha/keikkapaikka
+http://salailja.users.cs.helsinki.fi/tsoha/genre
+http://salailja.users.cs.helsinki.fi/tsoha/genrelista
 
+Viimeisimpään dokumentaatioon jäi bändin ja genren väliseksi suhteeksi monen suhde moneen vaikka todellisuudessa se on monen suhde yhteen. Korjaan tämän seuraavaan dokumentaatioon.
 https://github.com/Albiinok/Tsoha-Bootstrap/blob/master/doc/dokumentaatio.pdf
 
 ## Työn aihe

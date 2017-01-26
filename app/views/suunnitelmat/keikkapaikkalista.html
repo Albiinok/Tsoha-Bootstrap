@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Tämä sivu listaa keikkapaikat  -->
+
+<h1>Keikkapaikat</h1>
+<br>
+
+<button class="btn btn-primary">Lisää keikkapaikka</button>
+<br>
+<div>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Keikkapaikka</th>
+                <th>Paikkakunta</th>
+                <th>Koko</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td><a href="#">Keikkapaikka</a></td>
+                <td><a href="#">Kaupunki</a></td>
+                <td>200 henkilöä</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock %}
