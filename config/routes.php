@@ -35,3 +35,19 @@
   $routes->get('/genrelista', function() {
       HelloWorldController::genrelista(); 
   });
+  
+  $routes->get('/bandi', function() {
+      HelloWorldController::bandi(); 
+  });
+  
+  $routes->get('/genrelist', function() {
+      GenreController::index();
+  });
+  
+  $routes->post('/genres', function() {
+      GenreController::store();
+  });
+  
+  $routes->get('/genres/new', function() {
+      GenreController::create();
+  });

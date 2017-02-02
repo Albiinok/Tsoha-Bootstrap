@@ -3,26 +3,25 @@
 
 <!-- Tällä sivulla on listattu kaikki valittua genreä edustavat bändit -->
 
-<h1>Genren nimi</h1>
+<h1>Genret</h1>
 
 <div>
-    <h2>Bändit</h2>
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Bändin nimi</th>
-                <th>blaa</th>
+                <th>Genren nimi</th>
             </tr>
         </thead>
         
         <tbody>
-            {% for bandi in bandit %}
+            {% for genre in genret %}
             <tr>
-                <td><a href="{{base_path}}/genres/{{bandi.nimi}}">{{bandi.nimi}}</a></td>
+                <td><a href="#">{{genre.nimi}}</td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 </div>
-
+<br>
+<a href="http://salailja.users.cs.helsinki.fi/tsoha/genres/new">Lisää genre</a>
 {% endblock %}

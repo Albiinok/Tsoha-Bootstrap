@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Bändin nimi</h1>
+
+<h3>Lisää genre</h3>
+
+<div>
+    <form method="post" action="{{base_path}}/genres">
+        <div class="form-group">
+            <label>Genren nimi</label>
+            <input name="nimi" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+            <br>
+            <button type="submit" class="btn btn-primary">Tallenna</button>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}
